@@ -1,0 +1,28 @@
+{
+  "site_name": "Bulldog Guide",
+  "site_url": "https://bulldog-guide.github.io",
+  "niche": "English Bulldogs",
+  "brand_voice": "Practical, no-nonsense, focused on honest health-aware guidance",
+  "editorial_voice": "Straight-talking care information — bulldogs have real medical needs and we cover them plainly",
+  "primary_author_label": "Bulldog Guide Research Desk",
+  "reviewer_label": "Bulldog Guide Editorial Review",
+  "update_owner_label": "Bulldog Guide Research Desk",
+  "about_title": "About This Guide",
+  "editorial_policy_title": "Our Editorial Standards",
+  "disclosure_title": "How This Site Is Funded",
+  "ai_assistance_disclosure": "AI writing tools are used at the drafting stage on some articles. Every piece is reviewed by our research desk before it goes live.",
+  "article_eeat_block_variants": [
+    "<div style=\"border-left:4px solid #166534;background:#f0fdf4;padding:14px 18px;margin:24px 0;border-radius:0 6px 6px 0;\"><p style=\"margin:0;font-size:0.93rem;color:#4b5563;\"><strong style=\"color:#166534;\">Bulldog Guide Research Desk</strong> — Reviewed for accuracy. Bulldog health is specific and we check claims before publishing.</p></div>",
+    "<div style=\"border-left:4px solid #166534;background:#f0fdf4;padding:14px 18px;margin:24px 0;border-radius:0 6px 6px 0;\"><p style=\"margin:0;font-size:0.93rem;color:#4b5563;\"><strong style=\"color:#166534;\">Fact-Checked Content</strong> — The Bulldog Guide Research Desk verifies breed-specific health claims. When we can't confirm something, we say so.</p></div>",
+    "<div style=\"border:1px solid #86efac;background:#f8fff9;padding:14px 18px;margin:24px 0;border-radius:6px;\"><p style=\"margin:0;font-size:0.93rem;color:#4b5563;\"><strong style=\"color:#166534;\">Research-Backed:</strong> This article was written to address real questions from bulldog owners. Our goal is accuracy over length.</p></div>",
+    "<div style=\"background:#166534;color:#fff;padding:14px 18px;margin:24px 0;border-radius:6px;\"><p style=\"margin:0;font-size:0.93rem;\"><strong>Editorial Note:</strong> Bulldog Guide covers breed-specific health topics with extra care. If you spot an error or outdated info, <a href=\"/contact.html\" style=\"color:#cfe;\">contact us</a>.</p></div>",
+    "<div style=\"border-top:2px solid #166534;padding-top:12px;margin:24px 0;\"><p style=\"font-size:0.88rem;color:#6b7280;margin:0;\">Written by the <strong style=\"color:#166534;\">Bulldog Guide Research Desk</strong>. We cover wrinkle care, heat safety, breathing concerns, and the practical realities of English Bulldog ownership.</p></div>"
+  ],
+  "disclosure_variants": [
+    "Bulldog Guide earns affiliate commissions from qualifying Amazon purchases. Your purchase price is unaffected.",
+    "This site contains affiliate links. If you buy through them, we receive a small commission — it costs you nothing extra.",
+    "Bulldog Guide uses Amazon affiliate links to help cover running costs. We only link to products that are relevant to bulldogs.",
+    "When you click a product link and make a purchase, Bulldog Guide may earn a commission. This doesn't shape our editorial positions.",
+    "Affiliate commissions help fund this site. Our research desk operates independently from any revenue these links generate."
+  ]
+}
