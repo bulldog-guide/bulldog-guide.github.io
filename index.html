@@ -211,15 +211,77 @@
     #bottom-bar span { display: none; }
   }
 </style>
+<style id="site-chrome">
+.sc-reset,header.sc-topbar,footer.sc-footer{box-sizing:border-box}
+/* ── Top bar ── */
+  .sc-topbar{
+    background: #166534;
+    color: #fff;
+    padding: 0 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.18);
+  }
+.sc-topbar-inner{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 54px;
+  }
+.sc-topbar-brand{
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 0.01em;
+  }
+.sc-topbar-nav{
+    display: flex;
+    gap: 4px;
+    list-style: none;
+  }
+.sc-topbar-nav a{
+    color: rgba(255,255,255,0.88);
+    font-size: 0.88rem;
+    padding: 6px 12px;
+    border-radius: 4px;
+    transition: background 0.15s;
+  }
+.sc-topbar-nav a:hover{
+    background: rgba(255,255,255,0.15);
+    color: #fff;
+    text-decoration: none;
+  }
+@media(max-width:600px) {
+    .sc-topbar-nav { display: none; }}
+/* ── Footer ── */
+  .sc-footer{
+    background: #115029;
+    color: rgba(255,255,255,0.75);
+    text-align: center;
+    padding: 24px 16px;
+    font-size: 0.82rem;
+    margin-top: 40px;
+  }
+.sc-footer-nav{ margin-bottom: 8px; }
+.sc-footer-nav a{
+    color: rgba(255,255,255,0.85);
+    margin: 0 10px;
+    font-size: 0.85rem;
+  }
+.sc-topbar a,.sc-footer a{text-decoration:none}
+@media(max-width:700px){header[class^="sc-"] [class*="inner"],header[class^="sc-"]{flex-wrap:wrap;height:auto}header[class^="sc-"] nav,header[class^="sc-"] [class*="nav"]{display:flex;flex-wrap:wrap;gap:6px 14px}header[class^="sc-"] [class*="inner"]{padding-top:8px;padding-bottom:8px}main,article,aside,[class*="wrap"]>*,[class*="layout"]>*,[class*="content"],[class*="column"]{min-width:0!important;max-width:100%}table{display:block!important;width:auto!important;max-width:100%!important;overflow-x:auto}img,iframe,video{max-width:100%;height:auto}h1,h2,h3,p,li{overflow-wrap:anywhere}[class*="wrapper"],[class*="layout"],[class*="rich"]{grid-template-columns:minmax(0,1fr)!important}article *,[class*="content"] *,[class*="rich"] *{box-sizing:border-box!important;max-width:100%!important;min-width:0!important}table{overflow-x:auto!important}}
+</style>
 </head>
 <body>
-
-<!-- TOP BAR -->
-<header class="topbar">
-  <div class="topbar-inner">
-    <a class="topbar-brand" href="/">Bulldog Guide</a>
+<header class="sc-topbar">
+  <div class="sc-topbar-inner">
+    <a class="sc-topbar-brand" href="/">Bulldog Guide</a>
     <nav>
-      <ul class="topbar-nav">
+      <ul class="sc-topbar-nav">
         <li><a href="/">Home</a></li>
         <li><a href="/blog.html">Blog</a></li>
         <li><a href="/care.html">Care</a></li>
@@ -230,6 +292,10 @@
     </nav>
   </div>
 </header>
+
+
+<!-- TOP BAR -->
+
 
 
 <!-- BREADCRUMB -->
@@ -262,85 +328,61 @@
             <p style='color:#888; font-size:0.85rem; margin:4px 0;'>2026-06-01</p>
             <p style='color:#555; margin:8px 0 0;'>Comparison Escape — unplug from others’ metrics, breathe at your own pace. This guide gives you a personalised breakdown of the english bulldog c section rate…</p>
         </article>
-
         <article style="background:#f9f9f9; border-left:4px solid #166534; padding:20px; margin-bottom:24px; border-radius:4px;">
             <h2 style="margin-top:0; font-size:1.2rem;">
-                <a href="/english-bulldog-true-cost-per-year.html" style="color:#115029; text-decoration:none;">English Bulldog True Cost Per Year: What Owners Actually Spend</a>
+                <a href="/english-bulldog-true-cost-per-year.html" style="color:#115029; text-decoration:none;">English Bulldog Costs: Real Yearly Expenses Revealed</a>
             </h2>
             <p style='color:#888; font-size:0.85rem; margin:4px 0;'>2026-05-26</p>
-            <p style='color:#555; margin:8px 0 0;'>English Bulldog True Cost Per Year: What Owners Actually Spend</p>
+            <p style='color:#555; margin:8px 0 0;'>Stop guessing bulldog ownership costs. See exactly what owners spend annually on vet care, food, and emergencies—plan your budget with confidence today.</p>
         </article>
-
         <article style="background:#f9f9f9; border-left:4px solid #166534; padding:20px; margin-bottom:24px; border-radius:4px;">
             <h2 style="margin-top:0; font-size:1.2rem;">
-                <a href="/english-bulldog-annual-cost-per-year.html" style="color:#115029; text-decoration:none;">English Bulldog Annual Cost Per Year</a>
+                <a href="/english-bulldog-annual-cost-per-year.html" style="color:#115029; text-decoration:none;">How to Budget for English Bulldog Costs</a>
             </h2>
             <p style='color:#888; font-size:0.85rem; margin:4px 0;'>2026-05-25</p>
-            <p style='color:#555; margin:8px 0 0;'>English Bulldog Annual Cost Per Year</p>
+            <p style='color:#555; margin:8px 0 0;'>Discover exact annual costs for English Bulldogs. Plan ahead without surprise vet bills. Get the full breakdown of ownership expenses today.</p>
         </article>
-
-        <article style="background:#f9f9f9; border-left:4px solid #166534; padding:20px; margin-bottom:24px; border-radius:4px;">
-            <h2 style="margin-top:0; font-size:1.2rem;">
-                <a href="/english-bulldog-boas-surgery-statistics.html" style="color:#115029; text-decoration:none;">English Bulldog Boas Surgery Statistics</a>
-            </h2>
-            <p style='color:#888; font-size:0.85rem; margin:4px 0;'>2026-05-23</p>
-            <p style='color:#555; margin:8px 0 0;'>English Bulldog Boas Surgery Statistics</p>
-        </article>
-
         <article style="background:#f9f9f9; border-left:4px solid #166534; padding:20px; margin-bottom:24px; border-radius:4px;">
             <h2 style="margin-top:0; font-size:1.2rem;">
                 <a href="/bulldog-csection-statistics.html" style="color:#115029; text-decoration:none;">English Bulldog C-Section Rate: 86.1% and What It Actually Costs</a>
             </h2>
             <p style='color:#888; font-size:0.85rem; margin:4px 0;'>2026-05-23</p>
-            <p style='color:#555; margin:8px 0 0;'>86.1% of English Bulldogs are born by C-section — the highest rate of any dog breed. Understand why, what it costs ($1,500–$4,500), and what it means for breeding.</p>
+            <p style='color:#555; margin:8px 0 0;'>86.1% of English Bulldogs are born by C-section — the highest rate of any dog breed. Understand why, what it costs ($1,500–$4,500), and what it means for…</p>
         </article>
-
         <article style="background:#f9f9f9; border-left:4px solid #166534; padding:20px; margin-bottom:24px; border-radius:4px;">
             <h2 style="margin-top:0; font-size:1.2rem;">
-                <a href="/english-bulldog-skin-fold-dermatitis-frequency.html" style="color:#115029; text-decoration:none;">English Bulldog Skin Fold Dermatitis: how common it is and what the daily routine really looks like</a>
+                <a href="/english-bulldog-boas-surgery-statistics.html" style="color:#115029; text-decoration:none;">Bulldog Boa Surgery: What Owners Get Wrong (and Survival Rates)</a>
+            </h2>
+            <p style='color:#888; font-size:0.85rem; margin:4px 0;'>2026-05-23</p>
+            <p style='color:#555; margin:8px 0 0;'>Most bulldog boa owners miss critical pre-surgery signs. Learn what actually determines survival rates and how to prepare your snake properly.</p>
+        </article>
+        <article style="background:#f9f9f9; border-left:4px solid #166534; padding:20px; margin-bottom:24px; border-radius:4px;">
+            <h2 style="margin-top:0; font-size:1.2rem;">
+                <a href="/english-bulldog-skin-fold-dermatitis-frequency.html" style="color:#115029; text-decoration:none;">Why Bulldog Skin Folds Crack and Bleed</a>
             </h2>
             <p style='color:#888; font-size:0.85rem; margin:4px 0;'>2026-05-22</p>
-            <p style='color:#555; margin:8px 0 0;'>English Bulldog Skin Fold Dermatitis: how common it is and what the daily routine really looks like</p>
+            <p style='color:#555; margin:8px 0 0;'>Discover why English Bulldogs suffer from skin fold dermatitis and the surprisingly simple routine that stops it. Learn what vets won&#x27;t tell you.</p>
         </article>
-
         <article style="background:#f9f9f9; border-left:4px solid #166534; padding:20px; margin-bottom:24px; border-radius:4px;">
             <h2 style="margin-top:0; font-size:1.2rem;">
-                <a href="/what-temperature-is-too-hot-to-walk-a-bulldog.html" style="color:#115029; text-decoration:none;">What Temperature Is Too Hot to Walk a Bulldog? Safety Guide</a>
-            </h2>
-            <p style='color:#888; font-size:0.85rem; margin:4px 0;'>2026-05-19</p>
-            <p style='color:#555; margin:8px 0 0;'>Learn what temperatures are too hot for Bulldogs, when to shorten or skip the walk, and which heat-warning signs owners should not ignore.</p>
-        </article>
-
-        <article style="background:#f9f9f9; border-left:4px solid #166534; padding:20px; margin-bottom:24px; border-radius:4px;">
-            <h2 style="margin-top:0; font-size:1.2rem;">
-                <a href="/can-bulldogs-go-up-and-down-stairs.html" style="color:#115029; text-decoration:none;">Can Bulldogs Go Up and Down Stairs? Owner Safety Guide</a>
-            </h2>
-            <p style='color:#888; font-size:0.85rem; margin:4px 0;'>2026-05-19</p>
-            <p style='color:#555; margin:8px 0 0;'>Find out when Bulldogs can use stairs, when a ramp is safer, and which warning signs mean you should stop and call your vet.</p>
-        </article>
-
-        <article style="background:#f9f9f9; border-left:4px solid #166534; padding:20px; margin-bottom:24px; border-radius:4px;">
-            <h2 style="margin-top:0; font-size:1.2rem;">
-                <a href="/bulldog-cooling-tips.html" style="color:#115029; text-decoration:none;">Bulldog Cooling Tips | 10 Summer Safety Strategies | Bulldog Guide</a>
+                <a href="/bulldog-cooling-tips.html" style="color:#115029; text-decoration:none;">Bulldog Cooling Tips</a>
             </h2>
             <p style='color:#888; font-size:0.85rem; margin:4px 0;'>2026-05-18</p>
-            <p style='color:#555; margin:8px 0 0;'>Bulldogs overheat at 75°F — 15°F lower than most breeds. These 10 vet-backed cooling strategies cover AC setup, cooling zones, and the emergency heatstroke protocol.</p>
+            <p style='color:#555; margin:8px 0 0;'>Bulldogs overheat at 75°F — 15°F lower than most breeds. These 10 vet-backed cooling strategies cover AC setup, cooling zones, and the emergency heatstroke…</p>
         </article>
-
         <article style="background:#f9f9f9; border-left:4px solid #166534; padding:20px; margin-bottom:24px; border-radius:4px;">
             <h2 style="margin-top:0; font-size:1.2rem;">
-                <a href="/disclosure.html" style="color:#115029; text-decoration:none;">How This Site Is Funded — Bulldog Guide</a>
+                <a href="/can-bulldogs-go-up-and-down-stairs.html" style="color:#115029; text-decoration:none;">3 Stair Risks for Bulldogs: What Owners Must Know</a>
             </h2>
-            <p style='color:#888; font-size:0.85rem; margin:4px 0;'>2026-01-01</p>
-            <p style='color:#555; margin:8px 0 0;'>How Bulldog Guide earns affiliate income through Amazon links and why this does not affect the Research Desk's editorial independence.</p>
+            <p style='color:#888; font-size:0.85rem; margin:4px 0;'>2026-05-16</p>
+            <p style='color:#555; margin:8px 0 0;'>Bulldogs face unique stair challenges. Learn the 3 critical safety risks every owner should understand to protect their dog from injury and costly vet bills.</p>
         </article>
-
         <article style="background:#f9f9f9; border-left:4px solid #166534; padding:20px; margin-bottom:24px; border-radius:4px;">
             <h2 style="margin-top:0; font-size:1.2rem;">
-                <a href="/editorial-policy.html" style="color:#115029; text-decoration:none;">Our Editorial Standards — Bulldog Guide</a>
+                <a href="/what-temperature-is-too-hot-to-walk-a-bulldog.html" style="color:#115029; text-decoration:none;">The 104°F Danger Zone: Why Bulldogs Collapse in Heat</a>
             </h2>
-            <p style='color:#888; font-size:0.85rem; margin:4px 0;'>2026-01-01</p>
-            <p style='color:#555; margin:8px 0 0;'>Bulldog Guide's editorial standards: how the Research Desk approaches English Bulldog care content with breed-specific accuracy in mind.</p>
+            <p style='color:#888; font-size:0.85rem; margin:4px 0;'>2026-05-16</p>
+            <p style='color:#555; margin:8px 0 0;'>Bulldogs overheat faster than other dogs. Discover the critical temperature threshold and life-saving safety rules every owner must know before summer walks.</p>
         </article>
     
   </main>
@@ -348,15 +390,7 @@
   <!-- SIDEBAR -->
   <aside class="sidebar">
     
-    <div class="sidebar-widget">
-      <h3>Get Bulldog Tips</h3>
-      <p>Weekly care guides, health tips and breed news for Bulldog owners.</p>
-      <form onsubmit="return handleSidebarSubmit(event);" action="#" method="post">
-        <input type="email" name="email" placeholder="your@email.com" required>
-        <button type="submit">Subscribe Free</button>
-      </form>
-      <p class="disclaimer">No spam. Unsubscribe anytime.</p>
-    </div>
+    
 
     <div class="sidebar-about">
       <strong>About Bulldog Guide</strong>
@@ -372,49 +406,20 @@
         <li><a href="/privacy.html">Privacy</a></li>
         <li><a href="/sitemap.html">Sitemap</a></li>
       </ul>
-      <h4>Latest articles</h4><ul><li><a href="/english-bulldog-c-section-rate-cost-breakdown.html">English Bulldog C Section Rate Cost Breakdown</a></li><li><a href="/english-bulldog-true-cost-per-year.html">English Bulldog True Cost Per Year: What Owners Actually Spend</a></li><li><a href="/english-bulldog-annual-cost-per-year.html">English Bulldog Annual Cost Per Year</a></li><li><a href="/english-bulldog-boas-surgery-statistics.html">English Bulldog Boas Surgery Statistics</a></li></ul>
+      <h4>Latest articles</h4><ul><li><a href="/english-bulldog-c-section-rate-cost-breakdown.html">English Bulldog C Section Rate Cost Breakdown</a></li><li><a href="/english-bulldog-true-cost-per-year.html">English Bulldog Costs: Real Yearly Expenses Revealed</a></li><li><a href="/english-bulldog-annual-cost-per-year.html">How to Budget for English Bulldog Costs</a></li><li><a href="/bulldog-csection-statistics.html">English Bulldog C-Section Rate: 86.1% and What It Actually Costs</a></li><li><a href="/english-bulldog-boas-surgery-statistics.html">Bulldog Boa Surgery: What Owners Get Wrong (and Survival Rates)</a></li><li><a href="/english-bulldog-skin-fold-dermatitis-frequency.html">Why Bulldog Skin Folds Crack and Bleed</a></li></ul>
     </div>
   </aside>
 
 </div>
 
 <!-- FULL-WIDTH EMAIL BLOCK (wszystkie blogi) -->
-<div style="background:#166534;padding:48px 20px;text-align:center;">
-  <div style="max-width:560px;margin:0 auto;color:#fff;">
-    <h2 style="font-size:1.6rem;margin-bottom:10px;font-weight:700;">Love Bulldogs?</h2>
-    <p style="font-size:1rem;opacity:0.9;margin-bottom:24px;">Join thousands of Bulldog owners getting free weekly care tips, health guides and breed news.</p>
-    <form onsubmit="return handleFullWidthSubmit(event);" style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap;">
-      <input type="email" name="email" placeholder="Enter your email address" required
-        style="flex:1;min-width:220px;max-width:340px;padding:13px 16px;border:none;border-radius:6px;font-size:0.97rem;outline:none;">
-      <button type="submit"
-        style="background:#fff;color:#166534;border:none;border-radius:6px;padding:13px 28px;font-weight:700;font-size:0.97rem;cursor:pointer;white-space:nowrap;">
-        Subscribe Free
-      </button>
-    </form>
-    <p style="font-size:0.75rem;opacity:0.65;margin-top:12px;">No spam. Unsubscribe anytime. We respect your privacy.</p>
-  </div>
-</div>
+
 
 <!-- FOOTER -->
-<footer class="footer">
-  <div class="footer-nav">
-    <a href="/">Home</a>
-    <a href="/blog.html">Blog</a>
-    <a href="/about.html">About</a>
-    <a href="/contact.html">Contact</a>
-    <a href="/privacy.html">Privacy</a>
-    <a href="/sitemap.html">Sitemap</a>
-  </div>
-  <p>&copy; 2026 bulldog-guide.github.io &mdash; Bulldog Guide. All rights reserved.</p>
-</footer>
 
 
-<div id="bottom-bar" style="position:fixed;bottom:0;left:0;right:0;z-index:999;background:#16a34a;color:#fff;padding:10px 16px;display:flex;align-items:center;gap:10px;box-shadow:0 -3px 12px rgba(0,0,0,0.18);">
-  <span style="font-size:0.84rem;white-space:nowrap;font-weight:600;">Get free Bulldog tips:</span>
-  <input type="email" id="bottom-email" placeholder="your@email.com" style="flex:1;min-width:0;padding:8px 10px;border:none;border-radius:5px;font-size:0.84rem;outline:none;">
-  <button onclick="handleBottomSubmit()" style="background:#fff;color:#16a34a;border:none;border-radius:5px;padding:8px 14px;font-weight:700;cursor:pointer;font-size:0.84rem;white-space:nowrap;">Subscribe</button>
-  <button onclick="document.getElementById('bottom-bar').style.display='none'" style="background:rgba(255,255,255,0.2);color:#fff;border:none;border-radius:5px;padding:8px 10px;cursor:pointer;">✕</button>
-</div>
+
+
 
 <script>
   function handleSidebarSubmit(e) {
@@ -444,5 +449,16 @@
     return false;
   }
 </script>
+<footer class="sc-footer">
+  <div class="sc-footer-nav">
+    <a href="/">Home</a>
+    <a href="/blog.html">Blog</a>
+    <a href="/about.html">About</a>
+    <a href="/contact.html">Contact</a>
+    <a href="/privacy.html">Privacy</a>
+    <a href="/sitemap.html">Sitemap</a>
+  </div>
+  <p>&copy; 2026 bulldog-guide.github.io &mdash; Bulldog Guide. All rights reserved.</p>
+</footer>
 </body>
 </html>
