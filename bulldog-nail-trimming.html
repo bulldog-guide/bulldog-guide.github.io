@@ -254,6 +254,43 @@ header.sc-topbar nav{display:block!important}header.sc-topbar .sc-topbar-nav{dis
 .sidebar{display:grid!important;position:static!important;gap:16px;margin-top:24px}aside[class*="sidebar"]:not(.sidebar){display:block!important;position:static!important;margin-top:24px}.page-wrap{padding:0 16px 40px}.main-content{grid-template-columns:minmax(0,1fr)!important}.main-content>article{padding:22px!important}.main-content>article:first-of-type h2{font-size:1.5rem!important}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{transition:none!important}}
 </style>
+
+<style id="sidebar-follow-20261025">
+[data-follow-sidebar]{display:grid!important;gap:16px;position:sticky!important;top:96px!important;align-self:start!important;
+height:fit-content!important;max-height:calc(100dvh - 112px)!important;overflow-y:auto!important;
+min-width:0;overscroll-behavior:contain;scrollbar-width:thin}
+[data-follow-parent]{overflow:visible!important;align-items:start}
+.follow-sidebar-layout{display:grid;grid-template-columns:minmax(0,1fr) 280px;gap:32px;
+width:min(1184px,calc(100% - 32px));margin:32px auto;align-items:start}
+[data-follow-content]{width:auto!important;max-width:100%!important;min-width:0;margin:0!important}
+.follow-sidebar-panel{padding:18px;border:1px solid var(--line,#d8d9d0);border-radius:12px;
+background:var(--soft,#f4f5ef);color:var(--ink,#27382d);margin:0 0 16px}
+.follow-sidebar-panel h2{font:700 .85rem/1.4 system-ui;margin:0 0 12px}
+.follow-sidebar-panel ul{list-style:none;margin:0;padding:0}
+.follow-sidebar-panel a{display:block;padding:8px 0;color:inherit;text-decoration:underline;
+overflow-wrap:anywhere;line-height:1.45}
+@media(max-width:900px){[data-follow-sidebar]{position:static!important;top:auto!important;
+max-height:none!important;height:auto!important;overflow:visible!important;width:100%!important;max-width:100%;float:none!important}
+.follow-sidebar-layout{grid-template-columns:minmax(0,1fr);gap:24px}}
+</style>
+
+<!-- social-cards:start -->
+<meta property="og:title" content="English Bulldog Nail Trimming: A Calmer Grooming Routine">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://bulldog-guide.github.io/bulldog-nail-trimming.html">
+<meta property="og:description" content="English Bulldog nail trimming without a wrestling match: compare grinders, two-person routines and hammock questions, then plan a calmer grooming session.">
+<meta property="og:image" content="https://bulldog-guide.github.io/assets/social-share-20261025.jpg">
+<meta property="og:image:secure_url" content="https://bulldog-guide.github.io/assets/social-share-20261025.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="800">
+<meta property="og:image:alt" content="English Bulldog lying on a sunny stone garden patio - AI-generated illustration">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="English Bulldog Nail Trimming: A Calmer Grooming Routine">
+<meta name="twitter:description" content="English Bulldog nail trimming without a wrestling match: compare grinders, two-person routines and hammock questions, then plan a calmer grooming session.">
+<meta name="twitter:image" content="https://bulldog-guide.github.io/assets/social-share-20261025.jpg">
+<meta name="twitter:image:alt" content="English Bulldog lying on a sunny stone garden patio - AI-generated illustration">
+<!-- social-cards:end -->
 </head>
 <body>
 <header class="sc-topbar">
@@ -286,7 +323,7 @@ header.sc-topbar nav{display:block!important}header.sc-topbar .sc-topbar-nav{dis
     <p class="lead">Practical planning for paw handling, grinders, helpers, and conversations with your groomer.</p>
   </div>
 </section>
-<div class="layout">
+<div class="layout" data-follow-parent="true">
   <article class="article"><nav class="article-breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>›</span><a href="/blog.html">Blog</a><span>›</span><span aria-current="page">Bulldog nail trimming</span></nav><p class="meta">Bulldog Guide Research Desk</p><div class="container"><p>Learning how to trim an English Bulldog's nails when they fight it starts with a decision you will appreciate at the next session: stop trying to finish every paw today. A grinder, a helper, and a grooming hammock are different tools, but none replaces a dog who understands the routine. Build a repeatable setup before adding more equipment.</p>
 <div class="quick-answer" style="border:1px solid #86efac;background:#f0fdf4;padding:16px;border-radius:8px"><strong>Quick answer</strong><p>Start on a nonslip floor mat. Practice paw handling separately from trimming, introduce the tool gradually, and let a helper manage rewards while you manage the tool. If your bulldog pulls away or struggles, stop and simplify; ask a groomer for a demonstration rather than improvising a hanging setup.</p></div>
 <section id="session-planner" style="border:2px solid #166534;padding:18px;border-radius:10px;margin:20px 0"><h2 style="margin-top:0">Choose today's nail-care practice</h2><p>This planning tool chooses a rehearsal, not a cutting depth or equipment rating. Nothing is stored.</p><label for="paw-stage">What can your bulldog comfortably do?</label><select id="paw-stage" style="display:block;width:100%;padding:10px"><option value="approach">Approach the mat, but withdraw from paw handling</option><option value="touch">Accept a brief paw touch</option><option value="hold">Offer a paw while the tool is off</option><option value="tool">Accept the familiar tool and paw handling together</option></select><label for="helper" style="display:block;margin-top:12px">Is a calm helper available?</label><select id="helper" style="display:block;width:100%;padding:10px"><option value="no">No</option><option value="yes">Yes</option></select><label style="display:block;margin:12px 0"><input type="checkbox" id="withdraw">My dog is currently pulling away, hiding, or struggling</label><button id="plan-button" type="button" style="background:#166534;color:white;padding:12px;border:0;border-radius:6px">Build a practice plan</button><p id="plan-result" role="status" aria-live="polite">Choose your observations, then build your plan.</p><noscript><p>Without JavaScript: practice the last easy step. If your dog withdraws, stop. Use a helper for rewards, never to overpower the dog.</p></noscript></section>
@@ -349,7 +386,7 @@ header.sc-topbar nav{display:block!important}header.sc-topbar .sc-topbar-nav{dis
 </script>
 </div>
 </article>
-  <aside class="sidebar"><section class="sidebar-panel"><h3>About this site</h3><p>Rachel Osei writes about English bulldog health, costs and daily care.</p><p><a href="/about.html">More about us</a></p></section>
+  <aside class="sidebar" data-follow-sidebar="existing"><section class="sidebar-panel"><h3>About this site</h3><p>Rachel Osei writes about English bulldog health, costs and daily care.</p><p><a href="/about.html">More about us</a></p></section>
     
     
   </aside>
